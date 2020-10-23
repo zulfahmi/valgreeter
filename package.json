@@ -1,13 +1,13 @@
 {
   "name": "valgreeter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Greeter By Valensi",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest --config jestconfig.json",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
@@ -19,7 +19,10 @@
     "type": "git",
     "url": "git+https://github.com/zulfahmi/valgreeter.git"
   },
-  "keywords": ["Hello","Greeter"],
+  "keywords": [
+    "Hello",
+    "Greeter"
+  ],
   "author": "Valensi, Corp",
   "license": "ISC",
   "bugs": {
